@@ -18,6 +18,11 @@ int main() {
         printf("Ingrese prioridad (1-5): ");
         scanf("%d", &procesos[i].prioridad);
     }
+
+    int pidBuscado;
+    printf("\nIngrese el PID del proceso que desea buscar: ");
+    scanf("%d", &pidBuscado);
+
     return 0;
 }
 
