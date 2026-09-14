@@ -9,5 +9,9 @@ int main() {
     struct Proceso procesos[5];
     int i;
 
+    for(i = 0; i < 5; i++) {
+        printf("\n--- Proceso %d ---\n", i + 1);
+    }
     return 0;
 }
+
