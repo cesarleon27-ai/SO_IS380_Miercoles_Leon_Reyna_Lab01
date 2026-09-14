@@ -23,6 +23,22 @@ int main() {
     printf("\nIngrese el PID del proceso que desea buscar: ");
     scanf("%d", &pidBuscado);
 
+    int encontrado = 0;
+    for(i = 0; i < 5; i++) {
+        if(procesos[i].pid == pidBuscado) {
+            printf("\n¡Proceso encontrado!\n");
+            printf("Nombre: %s\n", procesos[i].nombre);
+            printf("Prioridad: %d\n", procesos[i].prioridad);
+            encontrado = 1;
+            break;
+        }
+    }
+
+    if(!encontrado) {
+        printf("\nProceso con PID %d no encontrado.\n", pidBuscado);
+    }
+
+
     return 0;
 }
 
