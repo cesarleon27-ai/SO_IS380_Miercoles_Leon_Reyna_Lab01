@@ -1,3 +1,4 @@
+// Programa de gestion y busqueda de procesos en C
 #include <stdio.h>
 
 struct Proceso {
