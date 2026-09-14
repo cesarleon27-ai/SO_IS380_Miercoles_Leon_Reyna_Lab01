@@ -11,6 +11,8 @@ int main() {
 
     for(i = 0; i < 5; i++) {
         printf("\n--- Proceso %d ---\n", i + 1);
+        printf("Ingrese PID: ");
+        scanf("%d", &procesos[i].pid);
     }
     return 0;
 }
