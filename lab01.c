@@ -15,6 +15,8 @@ int main() {
         scanf("%d", &procesos[i].pid);
         printf("Ingrese nombre: ");
         scanf("%s", procesos[i].nombre);
+        printf("Ingrese prioridad (1-5): ");
+        scanf("%d", &procesos[i].prioridad);
     }
     return 0;
 }
