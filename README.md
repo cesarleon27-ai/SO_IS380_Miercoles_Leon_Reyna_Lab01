@@ -15,7 +15,9 @@ El programa en C implementa una estructura `Proceso` que permite:
 Para compilar y ejecutar el código en un entorno Linux (o terminal Bash), siga estos comandos:
 
 ### 1. Compilar el código
+```bash
 gcc lab01.c -o lab01
-
+```
 ### 2. Ejecutar el programa
+```bash
 ./lab01
